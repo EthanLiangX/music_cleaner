@@ -1,0 +1,3 @@
+audioread      # 音频文件解码核心库
+mutagen        # 元数据解析工具
+pydub          # 音频处理（需要ffmpeg）

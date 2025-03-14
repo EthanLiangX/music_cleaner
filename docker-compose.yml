@@ -1,0 +1,7 @@
+services:
+  clean_music:
+    image: music-cleaner:latest
+    volumes:
+      - ./music_cleaner.py:/app/music_cleaner.py
+      - /downloads/音乐:/music
+    command: ["python","music_cleaner.py","/music"]
