@@ -1,6 +1,6 @@
 # music_cleaner
-## A simple script to clean up music files
-This script is designed to clean up music files by removing any unwanted characters from the file names. It will also remove any unwanted characters from the tags of the music files. The script will also rename the files to a standard format.
+## 删除重复的音乐
+脚本删除重复的音乐，基于FFMPEG实现。
 
 ### Usage
 To use the script, simply run the following command:
